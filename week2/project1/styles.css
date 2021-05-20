@@ -1,0 +1,32 @@
+h2 {
+    color: darkgreen;
+}
+
+h2, h3 {
+   font-family: Georgia; 
+   text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+
+}
+h4 {
+    text-transform: uppercase;
+}
+#war {
+    background-color: purple;
+}
+div p {
+    background-color: blue;
+}
+.extra {
+    margin: 2em;
+}
