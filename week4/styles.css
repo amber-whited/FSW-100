@@ -1,0 +1,46 @@
+.nav-bar {
+    position: fixed;
+    width:100%;
+    margin: 10px;
+    background-color: rgb(134, 114, 122)
+
+}
+.about {
+    position: relative;
+    left: 315px;
+}
+.menu {
+    position: relative;
+    left: 150px;
+}
+
+.flowers {
+    width: 450px;
+    height: 200px;
+    border: 2px solid rgb(156, 33, 80);
+position: fixed;
+
+}
+
+.mothers {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(89, 14, 99);
+    margin-top: 250px;
+    float:none;
+}
+.roses {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    margin-top:420px ;
+    float: center;
+}
+
+.sunflower {
+    width: 150px;
+    height: 150px;
+    border: 2px solid yellow;
+    margin-top: 590px;
+    float: center;
+}
