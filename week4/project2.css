@@ -2,16 +2,29 @@
     position: fixed;
     width:100%;
     margin: 0;
-    background-color: rgb(209, 208, 208)
+    background-color: rgb(209, 208, 208);
+    float: left;
+    display:block;
+    background-color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+
+}
+.home{
+    position: relative;
+    padding-right: 200px;
 
 }
 .about {
     position: relative;
-    left: 315px;
+    
 }
 .menu {
     position: relative;
-    left: 150px;}
+    padding-right: 175px;
+    }
+
 
     table, th, td{
         font-family:'Limelight', cursive;
@@ -29,42 +42,44 @@
     .photo1{
         position: relative;
         width: 200px;
-        margin:10px;
+        margin:20px;
         border: 2px dashed black;
-        padding: 20px
+        padding: 20px;
+
     } 
     .lifeEvent{
         position: relative;
         width: 200px;
-        margin:10px;
+        margin:20px;
         border: 2px dashed black;
         padding: 20px
     }
     .baby{
         position: relative;
         width: 200px;
-        margin: 10px;
+        margin: 20px;
         border: 2px dashed black;
         padding: 20px
     }
     .weddings{
         position: relative;
         width: 200px;
-        margin: 10px;
+        margin: 20px;
         border: 2px dashed black;
         padding: 20px
     }  
     .senior{
         position: relative;
         width: 200px;
-        margin: 10px;
+        margin: 20px;
         border: 2px dashed black; 
         padding: 20px
     }
     .family {
         position: relative;
         width: 200px;
-        margin: 10px;
+        margin: 20px;
+        
         border: 2px dashed black;
         padding: 20px
     }
