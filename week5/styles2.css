@@ -1,0 +1,112 @@
+#parent {
+    display: grid;
+    grid-auto-rows:125px;
+    grid-gap: 15px;
+    grid-auto-rows: max-content;
+    
+}
+#one {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color:grey;
+    border-radius: 4%;
+    color: white;
+    font-size: 300%;
+}
+#two {
+    grid-column-start: 1;
+    grid-column-end:5;
+    background-color:rgb(59, 58, 58);
+    border-radius: 4%;
+    color: white;
+    font-size: 300%;
+}
+#three {
+    grid-column-start: 1;
+    grid-column-end:5;
+    background-color: rgb(61, 61, 61);
+    border-radius: 4%;
+    color: white;
+    font-size: 300%;
+    
+
+}
+#four {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(190, 188, 188);
+    border-radius: 4%;
+    color:black;
+    font-size: 300%;
+}
+#five {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: grey;
+    border-radius: 4%;
+    color: white;
+    font-size: 300%;
+}
+@media (min-width: 875px){
+    #parent {
+        display:grid;
+        grid-gap: 20px;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        grid-template-rows: 100px ;
+        grid-template-areas: "header header header header"
+                            "nav     main   main   main  "  
+                            "nav     main    main   main  "   
+                            "ads     ads    ads    ads"
+                            "featured featured featured featured";
+
+    }
+    
+    #one{
+        grid-area: header;
+    }
+    #two {
+        grid-area: nav;
+    }
+    #three {
+        grid-area: main;
+    }
+    #four {
+        grid-area: ads;
+    }
+    #five {
+        grid-area: featured;
+    }
+    
+}
+@media (min-width: 1368px){
+    #parent {
+        display:grid;
+        grid-gap: 30px;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        grid-template-rows: 100px ;
+        grid-template-areas: "header header header header"
+                            "nav     main   main   ads  "  
+                            "nav     main    main   ads  "   
+                            "nav     main    main    ads"
+                            "featured featured featured featured";
+
+    }
+    
+    #one{
+        grid-area: header;
+    }
+    #two {
+        grid-area: nav;
+    }
+    #three {
+        grid-area: main;
+    }
+    #four {
+        grid-area: ads;
+    }
+    #five {
+        grid-area: featured;
+    }
+    
+}
+
