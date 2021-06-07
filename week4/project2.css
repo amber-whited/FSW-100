@@ -7,7 +7,7 @@
     display:block;
     background-color: pink;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration:none;
 
 }
@@ -29,61 +29,67 @@
     table, th, td{
         font-family:'Limelight', cursive;
         border: 1px solid black; 
-        text-align: center;
-        margin-left: 800px;
-        margin-bottom: 50px;
+        font-size: 50px;
+        margin-left: 500px
     }    
 
  h1 {
         font-family:'Limelight', cursive; 
         text-align: center;
         padding: 75px;
+        font-size: 50px;
      }
     .photo1{
-        position: relative;
-        width: 200px;
-        margin:20px;
+        
+        width: 400px;
+        margin:40px;
         border: 2px dashed black;
-        padding: 20px;
+        padding: 50px;
 
     } 
     .lifeEvent{
-        position: relative;
-        width: 200px;
-        margin:20px;
+        
+        width: 400px;
+        margin:40px;
         border: 2px dashed black;
-        padding: 20px
+        padding: 50px
     }
     .baby{
-        position: relative;
-        width: 200px;
-        margin: 20px;
+        
+        width: 400px;
+        margin: 40px;
         border: 2px dashed black;
-        padding: 20px
+        padding: 50px
     }
     .weddings{
-        position: relative;
-        width: 200px;
-        margin: 20px;
+        
+        width: 400px;
+        margin: 40px;
         border: 2px dashed black;
-        padding: 20px
+        padding: 50px
     }  
     .senior{
-        position: relative;
-        width: 200px;
-        margin: 20px;
+        
+        width: 400px;
+        margin: 40px;
         border: 2px dashed black; 
-        padding: 20px
+        padding: 50px
     }
     .family {
-        position: relative;
-        width: 200px;
-        margin: 20px;
+        
+        width: 400px;
+        margin: 40px;
         
         border: 2px dashed black;
-        padding: 20px
+        padding: 50px
     }
     h3, ul{
         font-family:'Limelight', cursive;
+        font-size: 50px;
     }
+    body {
+        background-color: burlywood;
+        
+       }
+
 
