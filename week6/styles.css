@@ -1,0 +1,65 @@
+.box {
+    background-color: red;
+    height:100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.box1 {
+    background-color: orange;
+    height:100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.box2 {
+    background-color: yellow;
+    height:100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.box3 {
+    background-color: green;
+    height:100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.box4 {
+    background-color: blue;
+    height:100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.box5 {
+    background-color: purple;
+    height:100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.box:hover {
+background-color: rgb(59, 148, 56);
+width: 200px;
+}
+.box1:hover{
+    border-radius: 15%;
+    background-color: plum;
+    }
+.box2:hover{
+    box-shadow: 10px 15px rgb(139, 205, 214);
+    width:150px;
+    height: 150px;
+}
+.box3:hover{
+    border: 3px solid red;
+    float:right;
+    padding:15px
+}
+.box4:hover{
+    opacity: 0.5;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+.box5:hover{
+    background-color: rosybrown;
+    border:dotted;
+    margin-left: 50px;
+}

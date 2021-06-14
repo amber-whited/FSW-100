@@ -34,7 +34,7 @@
     background-color: yellow;
     border-radius: 4%;
 }
-@media (min-width: 768px){
+@media (min-width: 900px){
     #parent {
         display:grid;
         grid-template-columns:100px 100px 100px 100px ;
