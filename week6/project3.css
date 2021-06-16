@@ -1,0 +1,133 @@
+.nav-bar {
+    position: fixed;
+    width:100%;
+    margin: 0;
+    background-color: rgb(209, 208, 208);
+    float: left;
+    display:block;
+    background-color: pink;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration:none;
+
+}
+.home{
+    position: relative;
+    padding-right: 200px;
+
+}
+.about {
+    position: relative;
+    
+}
+.menu {
+    position: relative;
+    padding-right: 175px;
+    }
+
+
+    table, th, td{
+        font-family:'Limelight', cursive;
+        border: 1px solid black; 
+        font-size: 25px;
+        margin:0;
+    }    
+
+ h1 {
+        font-family:'Limelight', cursive; 
+        text-align: center;
+        padding: 75px;
+        font-size: 50px;
+     }
+    .photo1{
+        
+        width: 400px;
+        margin:0px;
+        border: 2px dashed black;
+        padding: 50px;
+
+    } 
+    .lifeEvent{
+        
+        width: 400px;
+        margin:0px;
+        border: 2px dashed black;
+        padding: 50px
+    }
+    .baby{
+        
+        width: 400px;
+        margin: 0px;
+        border: 2px dashed black;
+        padding: 50px
+    }
+    .weddings{
+        
+        width: 400px;
+        margin: 0px;
+        border: 2px dashed black;
+        padding: 50px
+    }  
+    .senior{
+        
+        width: 400px;
+        margin: 0px;
+        border: 2px dashed black; 
+        padding: 50px
+    }
+    .family {
+        
+        width: 400px;
+        margin: 0px;
+        
+        border: 2px dashed black;
+        padding: 50px
+    }
+    h3, ul{
+        font-family:'Limelight', cursive;
+        font-size: 50px;
+    }
+    body {
+        background-color: burlywood;
+        
+       }
+   
+       @media (max-width: 678px){
+        h1,table,th,td,h3,ul{
+            font-size:25px;
+        }
+      
+    }
+
+    @media (min-width: 679px){
+        h1,table,th,td,h3,ul{
+            font-size:35px;
+            margin-left:250px;
+        }
+     
+    }
+        
+    @media (min-width: 1200px){
+        h1,table,th,td,h3,ul{
+            font-size:45px;
+            margin-left:600px
+        }
+       
+    }
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .box div {
+        width: 100px;
+        height: 100px;
+      }
+
+
+
+
+
+
+    
