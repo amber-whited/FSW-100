@@ -38,25 +38,32 @@
 .box:hover {
 background-color: rgb(59, 148, 56);
 width: 200px;
+transition: 4s;
 }
 .box1:hover{
     border-radius: 15%;
     background-color: plum;
+    transition: 2s;
     }
 .box2:hover{
     box-shadow: 10px 15px rgb(139, 205, 214);
     width:150px;
     height: 150px;
+    transition: 3s;
 }
 .box3:hover{
     border: 3px solid red;
     float:right;
-    padding:15px
+    padding:15px;
+    font-size:25px;
+    transition: 3s;
+
 }
 .box4:hover{
     opacity: 0.5;
     border-bottom-left-radius: 15%;
     border-top-right-radius: 15%;
+
 }
 .box5:hover{
     background-color: rosybrown;
